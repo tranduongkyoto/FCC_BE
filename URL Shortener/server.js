@@ -3,7 +3,7 @@
 var express = require('express');
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-
+require('dotenv').config();
 var cors = require('cors');
 
 var app = express();
